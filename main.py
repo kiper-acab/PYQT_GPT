@@ -19,7 +19,7 @@ class ChatgptBot(QMainWindow):
         # устанавливаем заголовок для нашего приложения
         self.setWindowTitle('ChatGpt-bot version 3')
         # добавляем api openai
-        self.key = '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'
+        self.key = 'your_api_key'
         openai.api_key = self.key
         # инициализируем UI
         self.initUI()
